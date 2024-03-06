@@ -1,6 +1,7 @@
-
 import MoreTreding from './../MoreTreding/MoreTreding';
+
 const FooterSection = () => {
+
    return (
       <>
          <section className="bg-white mt-14 py-68px">
