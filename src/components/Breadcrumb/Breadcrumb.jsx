@@ -6,7 +6,6 @@ const Breadcrumb = () => {
 
    let breadcrumbPath = '';
 
-   console.log(pathNames);
 
    return (
       <>
@@ -27,7 +26,6 @@ const Breadcrumb = () => {
                            )
                      })
                   }
-                  {/* <img src="/arrow.svg" alt="" className="mt-0.5 h-3.5 mx-2.5" /> */}
                </div>
             </div>
          </div>

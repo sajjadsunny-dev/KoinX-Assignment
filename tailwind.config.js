@@ -15,9 +15,14 @@ export default {
         'GetStartedPara': '#F2F2F2',
         'trendingGreen': '#14B079',
         'trendingCardBorder': '#E3E3E3',
+        'teamP': '#3E424A',
+        'teamCardBg': '#E8F4FD',
       },
       fontFamily: {
         'inter': ["Inter", "sans-serif"],
+      },
+      fontSize: {
+        '15px': '15px',
       },
       dropShadow: {
         'navbarShadow': '0 0 12px rgba(16, 38, 73, 0.06)',
@@ -27,16 +32,23 @@ export default {
         '4.5': '4.5px',
         '5px': '5px',
         '14px': '14px',
+        '15px': '15px',
         '17px': '17px',
         '26px': '26px',
         '30px': '30px',
+        '42px': '42px',
+        '60px': '60px',
         '68px': '68px',
         '327': '327px',
+        '881': '881px',
       },
       borderRadius: {
         '10px': '10px',
-      }
+        '7px': '7px',
+      },
     },
   },
   plugins: [],
 }
+// background: rgb(121,241,164);
+// background: linear-gradient(170deg, rgba(121,241,164,1) 0%, rgba(14,92,173,1) 94%); 
