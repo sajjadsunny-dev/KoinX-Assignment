@@ -70,7 +70,7 @@ const MoreTreding = ({ heading }) => {
    return (
       <>
          <div className="mb-30px ">
-            <h3 className="font-inter font-semibold text-2xl text-navLinkColor leading-7 mb-5">{heading}</h3>
+            <h3 className="font-inter font-semibold text-xl md:text-2xl text-navLinkColor leading-7 mb-5">{heading}</h3>
 
             <div className="relative">
                <Slider ref={slider => {
