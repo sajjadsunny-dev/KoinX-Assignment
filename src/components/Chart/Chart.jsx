@@ -31,7 +31,7 @@ const Chart = () => {
           </div>
           <h2 className="fot-inter font-semibold text-2xl text-[#0B1426] mx-2">Bitcoin</h2>
           <h3 className="fot-inter font-semibold text-base text-[#5D667B] leading-[19px] mr-10">BTC</h3>
-          <h4 className="fot-inter font-medium text-base text-white leading-[126%] bg-[#768396] p-2.5 rounded-lg border-2 border-solid border-[#808A9D]">Rank <span className="">#1</span></h4>
+          <h4 className="fot-inter font-medium text-base text-white leading-[126%] bg-[#768396] p-1 md:p-2.5 rounded-lg border-2 border-solid border-[#808A9D]">Rank <span className="">#1</span></h4>
         </div>
 
         <div className="md:bg-transparent bg-white rounded-lg p-6">
