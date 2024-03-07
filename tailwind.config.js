@@ -21,6 +21,7 @@ export default {
       },
       dropShadow: {
         'navbarShadow': '0 0 12px rgba(16, 38, 73, 0.06)',
+        'sliderBtnShadow': '0 0 8px rgba(0, 0, 0, 0.08)',
       },
       spacing: {
         '4.5': '4.5px',

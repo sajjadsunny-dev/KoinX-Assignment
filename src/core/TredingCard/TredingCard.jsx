@@ -8,7 +8,7 @@ const TredingCard = ({ key, symbol, thumb, price, priceChange, sparkline }) => {
 
    return (
       <>
-         <div key={key} className="col-span-2 mx-5px border-solid border-2 border-trendingCardBorder rounded-10px p-17px">
+         <div key={key} className="mx-5px border-solid border-2 border-trendingCardBorder rounded-10px p-17px">
             <div className="flex items-center">
                <div className="h-26px w-26px rounded-full overflow-hidden">
                   <img src={thumb} alt="bnb.png" className="w-full" />
