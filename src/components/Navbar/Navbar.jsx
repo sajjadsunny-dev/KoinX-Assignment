@@ -2,7 +2,7 @@
 export const Navbar = () => {
    return (
       <>
-         <section className="w-full py-5 bg-white drop-shadow-navbarShadow ">
+         <section className="w-full py-5 bg-white drop-shadow-navbarShadow fixed">
             <div className="max-w-container mx-auto px-2.5 flex items-center justify-between">
                <img src="/KonixLogo.png" alt="KonixLogo.png" />
                <div className="flex">
