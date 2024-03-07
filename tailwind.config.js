@@ -50,5 +50,3 @@ export default {
   },
   plugins: [],
 }
-// background: rgb(121,241,164);
-// background: linear-gradient(170deg, rgba(121,241,164,1) 0%, rgba(14,92,173,1) 94%); 

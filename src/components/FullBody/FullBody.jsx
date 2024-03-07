@@ -8,9 +8,7 @@ import TrendingCoins from "../TrendingCoins/TrendingCoins";
 import Breadcrumb from './../Breadcrumb/Breadcrumb';
 
 const FullBody = () => {
-   // const { data } = useFetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=inr%2Cusd&include_24hr_change=true");
 
-   // console.log(data);
    return (
       <>
          <section className="w-full">
