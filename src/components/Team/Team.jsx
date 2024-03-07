@@ -27,8 +27,8 @@ const Team = () => {
 
    return (
       <>
-         <div className="w-11/12 px-6 pt-6 pb-42px bg-white rounded-lg mt-5">
-            <h2 className="font-inter font-semibold text-2xl text-navLinkColor mb-6">Tokenomics</h2>
+         <div className="px-6 pt-6 pb-42px bg-white rounded-lg mt-5">
+            <h2 className="font-inter font-semibold text-2xl text-navLinkColor mb-6">Team</h2>
             <p className="font-inter font-medium text-base text-teamP leading-[160%]">Lorem ipsum dolor sit amet consectetur. Id consequat adipiscing arcu nibh. Eget mattis in mi integer sit egestas. Proin tempor id pretium quam. Facilisis purus convallis quam augue.</p>
             {
                teamMemberInfo?.map((item) => (

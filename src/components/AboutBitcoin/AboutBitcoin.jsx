@@ -3,7 +3,7 @@ import AboutBitcoinCard from "../../core/AboutBitcoinCard/AboutBitcoinCard"
 const AboutBitcoin = () => {
    return (
       <>
-         <div className="w-11/12 px-6 pt-6 pb-60px bg-white rounded-lg my-5">
+         <div className="px-6 pt-6 pb-60px bg-white rounded-lg my-5">
             <h2 className="font-inter font-semibold text-2xl text-navLinkColor mb-2.5">Tokenomics</h2>
 
             <div className="py-15px border-b-2 border-solid border-[#C9CFDD]">

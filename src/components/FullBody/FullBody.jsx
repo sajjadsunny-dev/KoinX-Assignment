@@ -12,7 +12,7 @@ const FullBody = () => {
    return (
       <>
          <section className="w-full">
-            <div className="max-w-container mx-auto px-2.5 grid grid-cols-12 gap-5">
+            <div className="max-w-container mx-auto px-2.5 grid grid-cols-12 gap-x-5">
                <Breadcrumb />
 
                <div className="col-span-12 md:col-span-8 ">

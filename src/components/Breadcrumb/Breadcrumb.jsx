@@ -10,7 +10,7 @@ const Breadcrumb = () => {
    return (
       <>
          <div className="w-full py-17px col-span-12">
-            <div className="max-w-container mx-auto px-2.5">
+            <div className="max-w-container mx-auto px-2">
                <div className="flex items-center">
                   <NavLink to={'/'} className="font-inter text-sm text-[#3E5765]">Cryptocurrencies</NavLink>
                   {

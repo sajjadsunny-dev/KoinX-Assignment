@@ -36,7 +36,7 @@ function TradingViewWidget() {
    }, []);
 
    return (
-      <div className="tradingview-widget-container !w-full" ref={container}>
+      <div className="tradingview-widget-container !w-full !h-[236px] md:!h-[460px]" ref={container}>
          <div className="tradingview-widget-container__widget"></div>
          <div className="tradingview-widget-copyright">
             <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
