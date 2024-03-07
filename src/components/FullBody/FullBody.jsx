@@ -4,7 +4,6 @@ import GetStarted from "../GetStarted/GetStarted";
 import Team from "../Team/Team";
 import Tokenomics from "../Tokenomics/Tokenomics";
 import TrendingCoins from "../TrendingCoins/TrendingCoins";
-// import useFetch from './../../useFetch';
 import Breadcrumb from './../Breadcrumb/Breadcrumb';
 
 const FullBody = () => {

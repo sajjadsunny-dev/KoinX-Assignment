@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Cryptocurrencies from './page/Cryptocurrencies/Cryptocurrencies.jsx';
 import Bitcoin from './page/Bitcoin/Bitcoin.jsx';
-// import { Navbar } from './components/Navbar/Navbar.jsx';
+import { Navbar } from './components/Navbar/Navbar.jsx';
 
 
 const router = createBrowserRouter([
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <React.StrictMode>
-    {/* <Navbar /> */}
+    <Navbar />
     <RouterProvider router={router} />
   </React.StrictMode>,
 )

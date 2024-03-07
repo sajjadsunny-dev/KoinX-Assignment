@@ -34,7 +34,7 @@ const Chart = () => {
           <h4 className="fot-inter font-medium text-base text-white leading-[126%] bg-[#768396] p-1 md:p-2.5 rounded-lg border-2 border-solid border-[#808A9D]">Rank <span className="">#1</span></h4>
         </div>
 
-        <div className="md:bg-transparent bg-white rounded-lg p-6">
+        <div className="md:bg-transparent bg-white rounded-lg p-6 md:p-0 border-[1px] md:border-0 border-solid border-[#DEE1E6]">
           <div className="flex items-start mb-6">
             <div className="mr-8">
               <h2 className="fot-inter font-semibold text-2xl text-[#0B1426]">${bitcoinData.usd}</h2>
@@ -42,7 +42,7 @@ const Chart = () => {
             </div>
 
             <div className="flex items-center mt-1">
-              <div className={`flex items-center py-4.5 px-2.5 rounded mr-3 ${bitcoinData?.usd_24h_change < 0 ? 'bg-[#FFE4E4]' : 'bg-[EBF9F4] '}`}>
+              <div className={`flex items-center py-4.5 px-2.5 rounded mr-3 ${bitcoinData?.usd_24h_change < 0 ? 'bg-[#FFE4E4]' : 'bg-[#EBF9F4] '}`}>
                 <div className={`poligon w-3 h-3 mr-1.5 ${bitcoinData?.usd_24h_change < 0 ? 'bg-[#EA3B3B] rotate-180' : 'bg-trendingGreen rotate-0'}`}></div>
                 <span className={`font-inter font-medium text-base ${bitcoinData?.usd_24h_change < 0 ? 'text-[#EA3B3B]' : 'text-trendingGreen'}`}>
                   {`${parseFloat(bitcoinData?.usd_24h_change).toFixed(2)}%`}

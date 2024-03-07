@@ -1,15 +1,15 @@
 import FooterSection from "../../components/FooterSection/FooterSection"
 import FullBody from "../../components/FullBody/FullBody"
-import { Navbar } from "../../components/Navbar/Navbar"
 
 
 function Bitcoin() {
 
    return (
       <>
-         <Navbar />
-         <FullBody />
-         <FooterSection />
+         <div className="pt-60px md:pt-[84px]">
+            <FullBody />
+            <FooterSection />
+         </div>
       </>
    )
 }
