@@ -92,10 +92,10 @@ const MoreTreding = ({ heading }) => {
                   }
                </Slider >
 
-               <div onClick={previous} className="hidden h-7 w-7 bg-white rounded-full drop-shadow-sliderBtnShadow md:flex items-center justify-center absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1/2 cursor-pointer">
+               <div onClick={previous} className="!hidden h-7 w-7 bg-white rounded-full drop-shadow-sliderBtnShadow md:!flex items-center justify-center absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1/2 cursor-pointer">
                   <IoIosArrowBack className='text-lg' />
                </div>
-               <div onClick={next} className="hidden h-7 w-7 bg-white rounded-full drop-shadow-sliderBtnShadow md:flex items-center justify-center absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 cursor-pointer">
+               <div onClick={next} className="!hidden h-7 w-7 bg-white rounded-full drop-shadow-sliderBtnShadow md:!flex items-center justify-center absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 cursor-pointer">
                   <IoIosArrowForward className='text-lg' />
                </div>
 
